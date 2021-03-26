@@ -10,30 +10,16 @@ import EventBind from './components/EventBind';
 import ParentComponent from './components/ParentComponent';
 import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList';
+import LifecycleA from './components/LifecycleA';
+import Fragment from './components/Fragment';
+import ClickCounter from './components/ClickCounter';
+import HoverCounter from './components/HoverCounter';
 
 function App() {
   return (
     <div className="App">
-      {/* <Greet /> */}
-      {/* <Welcome />  */}
-      {/*<Greet name="Bruce" heroname="Batman">
-        <p>This is children props</p>
-        </Greet>
-        <Greet name="Clark" heroname="Superman">
-        <button>Click me</button>
-        </Greet>
-        <Greet name="Diana" heroname="Wonder Woman" />
-        <Welcome name="Bruce" heroname="Batman" />
-        <Welcome name="Clark" heroname="Superman" />
-        <Welcome name="Diana" heroname="Wonder Woman" />
-
-        <Message />
-      <Counter />*/}
-      {/* <FunctionClick /> */}
-      {/* <EventBind /> */}
-      {/* <ParentComponent /> */}
-      {/* <UserGreeting /> */}
-      <NameList />
+      <ClickCounter />
+      <HoverCounter />
     </div>
   );
 }
